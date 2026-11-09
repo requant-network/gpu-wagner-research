@@ -1,0 +1,224 @@
+{
+  "cases": [
+    {
+      "n": 16,
+      "k": 1,
+      "seed": 20261109,
+      "kind": "single_list",
+      "sizes": [
+        512,
+        3
+      ],
+      "solutions": [
+        [
+          41,
+          183
+        ],
+        [
+          153,
+          181
+        ],
+        [
+          221,
+          342
+        ]
+      ]
+    },
+    {
+      "n": 16,
+      "k": 1,
+      "seed": 20261110,
+      "kind": "single_list",
+      "sizes": [
+        512,
+        5
+      ],
+      "solutions": [
+        [
+          4,
+          43
+        ],
+        [
+          14,
+          409
+        ],
+        [
+          122,
+          336
+        ],
+        [
+          137,
+          187
+        ],
+        [
+          348,
+          441
+        ]
+      ]
+    },
+    {
+      "n": 24,
+      "k": 2,
+      "seed": 20261109,
+      "kind": "single_list",
+      "sizes": [
+        512,
+        493,
+        1
+      ],
+      "solutions": [
+        [
+          63,
+          456,
+          206,
+          324
+        ]
+      ]
+    },
+    {
+      "n": 24,
+      "k": 2,
+      "seed": 20261110,
+      "kind": "single_list",
+      "sizes": [
+        512,
+        498,
+        2
+      ],
+      "solutions": [
+        [
+          44,
+          222,
+          85,
+          419
+        ],
+        [
+          209,
+          217,
+          254,
+          492
+        ]
+      ]
+    },
+    {
+      "n": 32,
+      "k": 3,
+      "seed": 20261109,
+      "kind": "single_list",
+      "sizes": [
+        512,
+        478,
+        424,
+        1
+      ],
+      "solutions": [
+        [
+          67,
+          321,
+          229,
+          313,
+          318,
+          345,
+          372,
+          373
+        ]
+      ]
+    },
+    {
+      "n": 32,
+      "k": 3,
+      "seed": 20261110,
+      "kind": "single_list",
+      "sizes": [
+        512,
+        494,
+        450,
+        0
+      ],
+      "solutions": []
+    },
+    {
+      "n": 48,
+      "k": 5,
+      "seed": 20261109,
+      "kind": "single_list",
+      "sizes": [
+        512,
+        487,
+        464,
+        385,
+        238,
+        0
+      ],
+      "solutions": []
+    },
+    {
+      "n": 48,
+      "k": 5,
+      "seed": 20261110,
+      "kind": "single_list",
+      "sizes": [
+        512,
+        509,
+        507,
+        468,
+        348,
+        0
+      ],
+      "solutions": []
+    },
+    {
+      "n": 24,
+      "k": 2,
+      "seed": 20261109,
+      "kind": "regular_lists",
+      "list_size": 256,
+      "sizes": [
+        1024,
+        500,
+        1
+      ],
+      "solutions": [
+        [
+          196,
+          483,
+          527,
+          990
+        ]
+      ]
+    },
+    {
+      "n": 24,
+      "k": 2,
+      "seed": 20261110,
+      "kind": "regular_lists",
+      "list_size": 256,
+      "sizes": [
+        1024,
+        520,
+        2
+      ],
+      "solutions": [
+        [
+          105,
+          434,
+          679,
+          959
+        ],
+        [
+          211,
+          481,
+          762,
+          930
+        ]
+      ]
+    }
+  ],
+  "negative_checks": 24,
+  "exhaustive_four_leaf_trees": true,
+  "source_sha256": {
+    "cpu_study.py": "68bfa7421a00006f0b8a89bd00d31bf01fafb39dddf3b2e73686b9f53f0b91dd",
+    "experiments/birthday.py": "7694e15de8cad4a8556a13c7bee3c6c754572bb429c983f37a8ff8e524971630"
+  },
+  "scope": "Canonical BLAKE2b leaves, exact collision trees, no list-capacity truncation. Regular-list fixtures study the mathematical constraint, not a deployed Requihash protocol."
+}
