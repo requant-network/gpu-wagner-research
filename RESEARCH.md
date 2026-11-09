@@ -17,3 +17,19 @@ Use the released RTX 5060 Ti 16 GB without concurrent GPU experiments. Retain ex
 ## Completion requirements
 
 Publish executable CPU/GPU studies, all required comparisons, independent verification, raw results, derived tables, English final conclusions and limitations. Public repository topics, homepage and attribution must identify Requant Network. CPU/reference and artifact CI must pass at the published commit. A negative result may complete a hypothesis test; missing experiments may not.
+
+## Completion evidence
+
+| Requirement | Evidence |
+| --- | --- |
+| Pinned native artifact and independent time/memory/proof checks | `build_native.py`, `author_campaign.py`, both complete author records; hash convention and duplicate candidates disclosed. |
+| Independent small references and altered-proof rejection | `experiments/birthday.py`, `cpu_study.py`, retained proof replay and exhaustive tiny fixture. |
+| Exact GPU solver and all memory policies | `cuda/wagner.cu`, `gpu_study.py`, complete primary/disjoint replication and fixed-input studies. |
+| Canonical full parameters, hash/verifier checks and explicit losses | (144,5)/(200,9) proofs, hashlib samples, Tromp validation, candidate/rejection counts and allocator follow-up. |
+| Matched regular/single workloads | `regular_study.py`, two cohorts with complete CPU/GPU solution sets on identical initial leaves/counts. |
+
+The [final report](FINAL_REPORT.md) and derived tables document findings, negative
+outcomes, reproduction and limits. The earlier overlapping canonical cohort is
+retained as a repeat control and supplemented by a disjoint independent cohort.
+This bounded campaign is complete; a deployed miner and energy economics remain
+separate work.

@@ -1,0 +1,32 @@
+{
+  "nvcc": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2026 NVIDIA Corporation\nBuilt on Tue_Jun_09_02:43:40_PM_PDT_2026\nCuda compilation tools, release 13.3, V13.3.73\nBuild cuda_13.3.r13.3/compiler.38244171_0",
+  "cuda_flags": [
+    "-O3",
+    "-std=c++17",
+    "-arch=sm_120",
+    "-cubin"
+  ],
+  "cubin_sha256": "64ea8439c951544e4b195b7020921a3eea7a92e9603f43d7b312ee29dd62fb1c",
+  "source_sha256": {
+    "collect_build.py": "42e0165e49d88c400c48c1f2c7fb65a8428607cb68219ea8ac414c67644585d2",
+    "cuda/wagner.cu": "697bd0edfece0e0934c549be3d2f8ad1757084963f92b9f708d78ed71cf35d65",
+    "native/author_bench.cpp": "b1545217e1c4ed741277fff3c14a06db9a779b564e84d728b0df6750420f636b",
+    "native/tromp_bridge.cpp": "2b04a7e4103e3150545518ac6e5b89a56570dbca5afc77ca67347f1bf022df0f"
+  },
+  "result_sha256": {
+    "gpu-study.json": "12e0895402b7c442b1a052bf733a054181f5cfc7ab8b8aec7722ca0140ef74b0",
+    "gpu-independent-replication.json": "3f5524a054e19124a011fcbac1a1a30e1bd1dc8da8d61d46a0d9f2d107ec54bc",
+    "gpu-replication.json": "dbdb8f9f608fa18243fa378423ef1ef8e0a99e3c1ad304f44e63bbf6f8b30a17",
+    "latency-study.json": "4e73f29c2414c56aa92489c1fa080bc59b22a6c93e4a4c745f7fae5300edde0e",
+    "latency-replication.json": "16e42a8d924e7dc1a1d54e107f2c6b16c8a7e65efd5662499ca128ef0b53a244",
+    "allocator-study.json": "32b236fec257b59ecde1f550663a3a2f52d14e092b6336ac3a1d75243695920f",
+    "allocator-replication.json": "be2249b46798926082ea3f41813ac4f25dacaf8ee0884e73099953bd969f1428",
+    "regular-study.json": "9f0754533406d155a67db0a6d0a92c0a6f714684923c81d57771241268c97eed",
+    "regular-replication.json": "2719681ed786a1c2c8533b635c1a0d4fdf7944dab65125679acbf02b8d72437d",
+    "author-study.json": "7f7e3c334356ca0168da2f16d29bc466edf1dfaabebcea0b2f3e6c44b03c62ba",
+    "author-replication.json": "80f447b9c01abc7792ff52cc85055fa225ef226efaa090bb20457f89b1727b57",
+    "author-preflight.json": "c0565be712ca6b369af6e6ffd3cf640887e59712052a2e37489d37de7cd0b3a9",
+    "native-build.json": "86fff840822b68720205ae0ce2a0d8c8106d1d7f8cd9022baeb09832da04f3e8"
+  },
+  "scope": "Post-run measured binary/source/raw bindings. Native compiler, flags and exact upstream pins are in native-build.json, including the documented Tromp alignment-only compatibility patch. Binary hashes identify these builds; rebuilds need not be byte-identical."
+}

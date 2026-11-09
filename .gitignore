@@ -6,3 +6,4 @@ build/
 upstream*/
 results/*.bin
 results/*.log
+results/*.progress.json

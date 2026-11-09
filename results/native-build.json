@@ -1,0 +1,36 @@
+{
+  "author_revision": "e53d92c7988bcb6868d702d44f15114e67e18c30",
+  "tromp_revision": "fab686ed3fac49dfd22624851025f31856728517",
+  "gxx": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "builds": {
+    "144_5": {
+      "author_flags": [
+        "-O3",
+        "-std=c++17",
+        "-march=native",
+        "-UNDEBUG"
+      ],
+      "author_binary_sha256": "daf434337cc5b70e0bafd9cfe1bb7c78776bbb773506e6a23a58d9bdbba6bac1",
+      "verifier_binary_sha256": "3acc456f7c1bd42c38323aa3a2b103a7ce8cdf77a784fa4bf4dd1861edffe4f3"
+    },
+    "200_9": {
+      "author_flags": [
+        "-O3",
+        "-std=c++17",
+        "-march=native",
+        "-UNDEBUG"
+      ],
+      "author_binary_sha256": "a158cc8867976449b91581fdd41b5b82126b373e3652f3575e708d9004b025e9",
+      "verifier_binary_sha256": "22f5cc67065e5d07b8d66a71ddcbd8082db6ee42718a231f04394d986c6d10c3"
+    }
+  },
+  "tromp_compatibility_fix": "Move four alignment attributes from typedef to struct for modern GCC. Verifier and hash arithmetic bodies unchanged.",
+  "original_blake_header_sha256": "ab2214abc4f079b9fdc405c9ae2c6a375d33dd0f156b5aa1b388f43a15df9cd3",
+  "compatible_blake_header_sha256": "891e75929b3c75f8d4d4dce36b5a15c3fe7a2c396df3475d056c321ce4c63ccf",
+  "source_sha256": {
+    "build_native.py": "4c11d853f4c76bb243dd0deda42ad43b89d2ed16667697ae7bf3ef980b5f1f46",
+    "native/author_bench.cpp": "b1545217e1c4ed741277fff3c14a06db9a779b564e84d728b0df6750420f636b",
+    "native/tromp_bridge.cpp": "2b04a7e4103e3150545518ac6e5b89a56570dbca5afc77ca67347f1bf022df0f"
+  },
+  "scope": "Original wrappers, unchanged upstream algorithms and verifier. CPU artifact hash convention is separately checked; binary hashes are informational and rebuilds need not be byte-identical."
+}
