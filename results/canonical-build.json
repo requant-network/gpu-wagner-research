@@ -1,0 +1,66 @@
+{
+  "revision": "fab686ed3fac49dfd22624851025f31856728517",
+  "builds": {
+    "144_5_1": {
+      "flags": [
+        "-O3",
+        "-std=c++17",
+        "-march=native",
+        "-UNDEBUG",
+        "-pthread",
+        "-DWN=144",
+        "-DWK=5",
+        "-DRESTBITS=4"
+      ],
+      "binary_sha256": "8fdaf6fbf24adc16975a5443c3ca07c1f497e5020331e2c4e68c2f0708e3401d"
+    },
+    "144_5_6": {
+      "flags": [
+        "-O3",
+        "-std=c++17",
+        "-march=native",
+        "-UNDEBUG",
+        "-pthread",
+        "-DWN=144",
+        "-DWK=5",
+        "-DRESTBITS=4",
+        "-DATOMIC"
+      ],
+      "binary_sha256": "5b37cbd4941aa0c01e99396a241ca76d0b002e527fdc63cc6f2b857fdf9527d2"
+    },
+    "200_9_1": {
+      "flags": [
+        "-O3",
+        "-std=c++17",
+        "-march=native",
+        "-UNDEBUG",
+        "-pthread",
+        "-DWN=200",
+        "-DWK=9"
+      ],
+      "binary_sha256": "d7b9b17e724dd39c6fdfed80770006f1252fc56d1ba547ada3f241cf189c406a"
+    },
+    "200_9_6": {
+      "flags": [
+        "-O3",
+        "-std=c++17",
+        "-march=native",
+        "-UNDEBUG",
+        "-pthread",
+        "-DWN=200",
+        "-DWK=9",
+        "-DATOMIC"
+      ],
+      "binary_sha256": "2d36a89ea1c3ee2f0f809b31bca23c90db56744bae88b30584c81f66ad83cd03"
+    }
+  },
+  "source_sha256": {
+    "build_canonical.py": "33838037628879c6b9aa2844c94be900d3f227454a52b22bc81f8cb71875be4d",
+    "native/canonical_bench.cpp": "f35eadb0001ae25065e6577a65e66073158be8b9f87e9d4728fe86b7bf65d595"
+  },
+  "upstream_source_sha256": {
+    "equi.h": "2c8354720484d56711c675812ce308856e53fcca79bd269bfd3ecff606ae9e74",
+    "equi_miner.h": "e1d84e8c93768a7c3a3163777c7dfd1b51b7d3f49998dea5b945bad2c1007669"
+  },
+  "compatibility": "Existing disclosed alignment-only build copy from build_native.py; algorithm and verifier unchanged. Single-thread build omits atomics; six-thread build uses upstream atomics. Bucket/hash filters and8-solution output cap remain and must be reported."
+}

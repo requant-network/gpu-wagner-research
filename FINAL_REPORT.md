@@ -167,3 +167,7 @@ Run timed campaigns sequentially, with no competing research workload. The prefl
 Parent pointers are the strongest tested practical GPU baseline. Checkpoint recomputation preserves accepted solution sets but introduces input-dependent reconstruction cost and can increase physical allocation reservation. Testing allocator release prevents an implementation artifact from being mistaken for a mathematical impossibility; this particular release policy still does not dominate parents. The CPU artifact's measured reduction is useful within its own convention, with invalid repeated-index candidates explicitly excluded from accepted counts.
 
 The regular-list experiment verifies a distinct constrained search problem. None of these observations establishes miner profitability or a new security bound. Different checkpoint schedules, a GPU in-place merge, narrower packing, optimized CPU canonical throughput, network integration, larger statistical cohorts and sampled energy are separate future studies. The committed required experiments are complete within the stated device and parameter scope.
+
+## Follow-up closure, 12 November 2026
+
+The [follow-up report](FOLLOWUP_REPORT.md) resolves the concrete next steps with new evidence and updated conclusions. Its findings supersede the open-work wording in this historical campaign.

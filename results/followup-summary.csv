@@ -1,0 +1,45 @@
+file,n,k,mode,observations,successfully_completed,latency_scope,solve_median_ms,boundary_median_ms,boundary_p95_ms,returned_proofs,zero_yield_observations,maximum_observed_gpu_pool_bytes,maximum_cpu_process_rss_kib
+canonical-cpu-replication.json,144,5,cpu-1,8,8,CPU fresh process; independent Python proof replay excluded,14449.929777000001,14754.463902005227,17540.456578019075,19,0,0,2633344
+canonical-cpu-replication.json,144,5,cpu-6,8,8,CPU fresh process; independent Python proof replay excluded,3209.0770885,3520.625128527172,4013.192902028095,19,0,0,2632960
+canonical-cpu-replication.json,200,9,cpu-1,8,8,CPU fresh process; independent Python proof replay excluded,485.7401585,496.90410602488555,512.0507230167277,13,1,0,135680
+canonical-cpu-replication.json,200,9,cpu-6,8,8,CPU fresh process; independent Python proof replay excluded,160.33824700000002,172.3021440266166,178.02076594671234,13,1,0,135680
+canonical-cpu-study.json,144,5,cpu-1,8,8,CPU fresh process; independent Python proof replay excluded,11439.619856000001,11719.073049520375,11940.979134000372,13,1,0,2633344
+canonical-cpu-study.json,144,5,cpu-6,8,8,CPU fresh process; independent Python proof replay excluded,2924.1230050000004,3223.5481044917833,3241.2397830048576,13,1,0,2633088
+canonical-cpu-study.json,200,9,cpu-1,8,8,CPU fresh process; independent Python proof replay excluded,478.09932200000003,491.32916348753497,494.11014502402395,13,1,0,137856
+canonical-cpu-study.json,200,9,cpu-6,8,8,CPU fresh process; independent Python proof replay excluded,146.9635665,159.83525101910345,167.9610550054349,13,1,0,137600
+checkpoint-replication.json,144,5,packed_checkpoint2,30,30,GPU complete solve plus independent/native verification,596.1075930099469,596.6773734835442,598.4837629948743,120,0,4459582464,0
+checkpoint-replication.json,144,5,packed_parents,30,30,GPU complete solve plus independent/native verification,348.0055920081213,348.57065850519575,351.05512000154704,120,0,4452103168,0
+checkpoint-replication.json,144,5,checkpoint3,30,30,GPU complete solve plus independent/native verification,812.3199274996296,812.9007085226476,814.5547010353766,120,0,4451773440,0
+checkpoint-replication.json,144,5,checkpoint2,30,30,GPU complete solve plus independent/native verification,588.2742254761979,588.8573459815234,590.9736649482511,120,0,4720235520,0
+checkpoint-replication.json,144,5,checkpoint1,30,30,GPU complete solve plus independent/native verification,429.9794244871009,430.5643264960963,431.44574703183025,120,0,4988681728,0
+checkpoint-replication.json,144,5,parents,30,30,GPU complete solve plus independent/native verification,341.03918849723414,341.6216454934329,342.2659139614552,120,0,5257133056,0
+checkpoint-replication.json,200,9,packed_checkpoint2,30,30,GPU complete solve plus independent/native verification,50.43055352871306,53.26541847898625,54.01644197991118,60,0,450505728,0
+checkpoint-replication.json,200,9,packed_parents,30,30,GPU complete solve plus independent/native verification,35.709424992091954,38.555289997020736,40.2863189810887,60,0,372113408,0
+checkpoint-replication.json,200,9,checkpoint3,30,30,GPU complete solve plus independent/native verification,60.619800991844386,63.48075298592448,65.80276001477614,60,0,510039552,0
+checkpoint-replication.json,200,9,checkpoint2,30,30,GPU complete solve plus independent/native verification,48.581594484858215,51.402316021267325,51.715877023525536,60,0,612522496,0
+checkpoint-replication.json,200,9,checkpoint1,30,30,GPU complete solve plus independent/native verification,39.695865008980036,42.546130483970046,44.189086998812854,60,0,646996992,0
+checkpoint-replication.json,200,9,parents,30,30,GPU complete solve plus independent/native verification,34.263496490893885,37.09933947538957,41.745274036657065,60,0,504365568,0
+checkpoint-stochastic-replication.json,144,5,parents,32,32,GPU complete solve plus independent/native verification,341.5649325179402,341.98029001709074,345.6226469716057,66,2,5535182336,0
+checkpoint-stochastic-replication.json,144,5,packed_parents,32,32,GPU complete solve plus independent/native verification,351.02624000865035,351.49083702708595,353.3394109690562,66,2,4452819968,0
+checkpoint-stochastic-replication.json,144,5,checkpoint1,32,32,GPU complete solve plus independent/native verification,431.04118047631346,431.4587725093588,432.9332670313306,66,2,6472609792,0
+checkpoint-stochastic-replication.json,200,9,parents,32,32,GPU complete solve plus independent/native verification,33.97668548859656,36.723897472256795,43.59129798831418,70,3,548372992,0
+checkpoint-stochastic-replication.json,200,9,packed_parents,32,32,GPU complete solve plus independent/native verification,35.62826701090671,37.636957480572164,45.325645012781024,70,3,374505984,0
+checkpoint-stochastic-replication.json,200,9,checkpoint1,32,32,GPU complete solve plus independent/native verification,39.24956699484028,41.38613952090964,49.43305300548673,70,3,691048448,0
+checkpoint-stochastic.json,144,5,parents,32,32,GPU complete solve plus independent/native verification,341.3180364877917,341.64381999289617,345.8504760055803,58,5,5534862848,0
+checkpoint-stochastic.json,144,5,packed_parents,32,32,GPU complete solve plus independent/native verification,351.0393009928521,351.3695544679649,354.11641700193286,58,5,4452666368,0
+checkpoint-stochastic.json,144,5,checkpoint1,32,32,GPU complete solve plus independent/native verification,430.1562324981205,430.49388952204026,433.0225270241499,58,5,6070415872,0
+checkpoint-stochastic.json,200,9,parents,32,32,GPU complete solve plus independent/native verification,33.83032948477194,36.45898250397295,42.46458801208064,61,2,546236928,0
+checkpoint-stochastic.json,200,9,packed_parents,32,32,GPU complete solve plus independent/native verification,35.51812449586578,37.89003400015645,43.7966370373033,61,2,374298624,0
+checkpoint-stochastic.json,200,9,checkpoint1,32,32,GPU complete solve plus independent/native verification,39.36875399085693,41.946910991100594,48.67699998430908,61,2,688904704,0
+checkpoint-study.json,144,5,packed_checkpoint2,30,30,GPU complete solve plus independent/native verification,602.323950995924,602.6470810174942,606.5570780192502,30,0,4443423744,0
+checkpoint-study.json,144,5,packed_parents,30,30,GPU complete solve plus independent/native verification,350.038273492828,350.3644765005447,354.93435099488124,30,0,3906871808,0
+checkpoint-study.json,144,5,checkpoint3,30,30,GPU complete solve plus independent/native verification,812.7427594736218,813.0685430078302,816.2604820099659,30,0,4444019200,0
+checkpoint-study.json,144,5,checkpoint2,30,30,GPU complete solve plus independent/native verification,589.1836194787174,589.5044439821504,591.2901950068772,30,0,4987157504,0
+checkpoint-study.json,144,5,checkpoint1,30,30,GPU complete solve plus independent/native verification,429.57838499569334,429.89557798136957,431.85300298500806,30,0,4182462976,0
+checkpoint-study.json,144,5,parents,30,30,GPU complete solve plus independent/native verification,340.6811374879908,341.0052800027188,342.5667289993726,30,0,4450867712,0
+checkpoint-study.json,200,9,packed_checkpoint2,30,30,GPU complete solve plus independent/native verification,50.05277099553496,51.63108749547973,53.715138987172395,30,0,456151040,0
+checkpoint-study.json,200,9,packed_parents,30,30,GPU complete solve plus independent/native verification,35.48526400118135,37.058341986266896,37.16865897877142,30,0,372496384,0
+checkpoint-study.json,200,9,checkpoint3,30,30,GPU complete solve plus independent/native verification,60.58732402743772,62.17643150012009,62.57223302964121,30,0,546744832,0
+checkpoint-study.json,200,9,checkpoint2,30,30,GPU complete solve plus independent/native verification,48.40272600995377,49.984324985416606,50.2150870161131,30,0,613923840,0
+checkpoint-study.json,200,9,checkpoint1,30,30,GPU complete solve plus independent/native verification,39.680115529336035,41.26052701030858,43.18550898460671,30,0,684265984,0
+checkpoint-study.json,200,9,parents,30,30,GPU complete solve plus independent/native verification,34.24079800606705,35.82368849311024,36.560325010214,30,0,541633536,0
