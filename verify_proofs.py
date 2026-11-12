@@ -22,6 +22,7 @@ for path in sorted(pathlib.Path('results').glob('*.json')):
     r=json.loads(path.read_text());assert r.get('status','completed')=='completed',path
     artifact=path.name.startswith('author-')
     for case in r.get('validation',[])+r.get('cases',[]):
+        case=case.get('result',case)
         n,k,seed=case['n'],case['k'],case['seed'];regular=case.get('regular_list_size',0)
         count=case.get('initial_items',1<<(n//(k+1)+1));key=(artifact,n,k,seed,regular,count)
         if not artifact and key not in oracles:oracles[key]=Oracle(n,k,seed,count)
